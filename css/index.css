@@ -1,0 +1,197 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+
+}
+
+.home{
+    background-image: url("../img/slide_3.jpg");
+    background-size: cover;    
+    background-repeat: no-repeat; 
+    height: 100vh;
+    width: 100vw;
+    background-position: -18em;
+}
+
+ul li{
+
+    list-style-type: none;
+    float: left;
+    margin: 0.5rem;
+    color: white;
+    font-size: 1.3em;
+    
+}
+
+ul li a{
+    font-family: amplitude light, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    font-weight: 400;    
+}
+
+.nav{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;  
+    
+}
+
+.nombre{
+    position: absolute;
+    top: 5%;
+    left: 4%;
+    text-transform: uppercase;
+    font-family: roboto , sans-serif;
+    font-weight: 900;
+    font-size:2.5em; 
+    color: white;
+}
+.subtitle{
+    position: absolute;
+    top: 10%;
+    left: 4.8%;
+    font-size: 1.1em;
+    font-family: amplitude light, sans-serif; 
+    font-weight: 300;   
+    color: white;
+}
+
+.contact{
+    text-decoration: none;
+    position: absolute;
+    bottom: 32%;
+    left: 2%;
+    transform: rotate(270deg);
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-family: roboto, sans-serif; 
+    font-weight: 700;   
+    color: white;
+}
+.contact:hover{
+    font-size: 1.3em;
+    font-display: bold;
+    text-decoration: none;
+    color:  white;
+    transition: ease-in-out;
+}
+.facebook{
+    position: absolute;
+    left: 4%;
+    bottom: 12%;     
+}
+.instagram{
+    position: absolute;
+    left: 4%;
+    bottom: 17%;      
+}
+.imdb{
+    position: absolute;
+    left: 4%;
+    bottom: 7%;   
+}
+.linkedin{
+    position: absolute;
+    left: 4%;
+    bottom: 22%;    
+}
+.circle{
+    background-color: white;
+    border-radius: 50%;
+}
+
+ul li a:hover{
+    font-weight: 700;
+    font-display: bold;
+    text-decoration: none;
+    color:  white;
+    transition: ease-in-out;
+}
+
+
+.overlay{
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0,0,0,0.6);
+}
+
+
+
+.facebook:hover{
+    transform: scale(1.5);
+    transition: ease-in-out;
+}
+
+.instagram:hover{
+    transform: scale(1.5);
+    transition: ease-in-out;
+}
+
+.imdb:hover{
+    transform: scale(1.5);
+    transition: ease-in-out;
+}
+.linkedin:hover{
+    transform: scale(1.5);
+    transition: ease-in-out;
+}
+.contact_border{
+position: relative;
+top: 18vh;
+left: 16.5vw;
+border-style:solid;
+border-color:white;
+border-width: 1px;
+border-radius: 2vw;
+width: 55vw;
+height: 65vh;
+}
+
+.contact_border h2{
+  text-transform: uppercase; 
+  color: white; 
+  position: relative;
+  left: 2.6vw;
+  top: 4vh;
+  font-family:roboto, sans-serif;
+  font-weight: bolder;
+  
+}
+
+.contact_col_1{
+    position: relative;
+    top: 10vh;
+    right:15vw;
+    color: white;
+    
+      
+}
+
+.contact_col_2{
+    position: relative;
+    top: 10vh;
+    right: 19vw;
+    color: white;
+}  
+    
+
+.title{
+    font-weight: bold;
+    font-family: roboto, sans-serif;
+    font-size: 1.5em;
+    color: white;
+}
+
+
+.info{
+    font-family: amplitude, sans-serif;
+    color: white;
+    font-size: 1em;
+}
+
+.contact_3{
+    position: relative;
+    top: 2.5vh;
+}
